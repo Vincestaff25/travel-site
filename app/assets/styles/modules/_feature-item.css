@@ -2,7 +2,7 @@
   position: relative;
   padding-bottom: 2.5rem;
 
-  @maixin atSmall {
+  @mixin atSmall {
     padding-left: 94px;
   }
 
@@ -22,11 +22,11 @@
     margin-top: .7em;
     margin-bottom: .8rem;
     text-align: center;
-  }
 
-  @mixin atSmall {
-    text-align: left;
-    margin-top: 1em;
-    font-size: 1.875rem;
+    @mixin atSmall {
+      text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem;
+    }
   }
 }

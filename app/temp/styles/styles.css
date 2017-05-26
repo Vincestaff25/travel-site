@@ -910,11 +910,14 @@ a {
 .feature-item {
   position: relative;
   padding-bottom: 2.5rem;
-
-  @maixin atSmall {
-    padding-left: 94px;
-  }
 }
+
+@media (min-width: 530px) {
+
+.feature-item {
+    padding-left: 94px
+}
+	}
 
 .feature-item__icon {
     display: block;
@@ -939,11 +942,11 @@ a {
 
 @media (min-width: 530px) {
 
-.feature-item {
-    text-align: left;
-    margin-top: 1em;
-    font-size: 1.875rem
-}
+.feature-item__title {
+      text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem
+  }
 	}
 
 .testimonial {
